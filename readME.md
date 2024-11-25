@@ -6,7 +6,7 @@ Bu proje, 2NHaber ve 2NTECH icin baslica UI ve Performans testleri icin hazırla
 Kodlama yapilirken  DRY/ SOLID ve OOP yapilarina dikkat edilmistir. Testler Fonksiyonel ve Kara Kutu test metotlarına uygun olarak yapılmistir.
 
 
-##  🚀 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **Java 17**: Projenin ana programlama dili.
 - **Maven**: Proje yönetimi ve bağımlılık yönetimi için kullanıldı.
@@ -17,7 +17,7 @@ Kodlama yapilirken  DRY/ SOLID ve OOP yapilarina dikkat edilmistir. Testler Fonk
 - **Allure-Reports**: Çalıştırılan testleri raporlamak için kullanıldı.
 
 
-## 💻 Proje Yapısı
+## Proje Yapısı
 
 - **`src/main/java/pages/BasePage.java`**: BasePage abstract classıdir ve kod tekrarını azaltır.
 - **`src/main/java/pages`**:Her page icin ayri locate ve methodlari barindirir
@@ -29,7 +29,7 @@ Kodlama yapilirken  DRY/ SOLID ve OOP yapilarina dikkat edilmistir. Testler Fonk
 - **`src/test/resources/testData`**: Testler için gerekli olan dosyalari bulundurur (pdf,word,excell vs.)
 - **`pom.xml`**: Projede kullanılan tüm bağımlılıkları yöneten Maven yapılandırma dosyası.
 
-## 📊 <span style="color:green;font-family:Courier New">Raporlama</span>
+## 📊 Raporlama
 
 - **Allure Report:** Test sonuçları, Allure tarafından oluşturulan raporlarla belgelenir , her test sonrasi gecici
   olarak allure-results klasoru olusurken , kalici raporlar icin allure-report klasoru olusturulabilir .  
@@ -38,7 +38,7 @@ Kodlama yapilirken  DRY/ SOLID ve OOP yapilarina dikkat edilmistir. Testler Fonk
 
 
 
-## 🛠️ <span style="color:purple;font-family:Courier New">Kurulum ve Calistirma</span>
+## Kurulum ve Calistirma
 
 1. **Bağımlılıkları Yükleme**:
     - Maven aracılığıyla projenin bağımlılıklarını indirmek için `mvn clean install` komutunu çalıştırın.
@@ -47,11 +47,12 @@ Kodlama yapilirken  DRY/ SOLID ve OOP yapilarina dikkat edilmistir. Testler Fonk
     - `src/test/java` altındaki test senaryolarını çalıştırmak için `mvn test` komutunu kullanın.
 
 
-##  👥 <span style="color:orange;font-family:Courier New">Kullanım Senaryoları</span>
+##  Kullanım Senaryoları
 
-- **UI Test Senaryolari**: 2NHaber anasayfa navbar , haber arama fonksiyonu olmak uzere 2 , 2NTech basvuru formu doldurma olmak uzere 1 ,  toplamda 3 farkli senaryo test edilmistir
+- **UI Test Senaryolari**: 2NHaber anasayfa navbar 1, haber arama fonksiyonu olmak uzere 1 , 2NTech basvuru formu doldurma olmak uzere 1 ,  toplamda 3 farkli senaryo test edilmistir
 - **Performans Test Senaryoları**: JMeter'de 25x3 thread, toplamda 75 thread kullanılarak yapılan bir yük testi senaryosu olusturulmustur. Bu, 75 farklı sanal kullanıcıyı simüle ederek navbar elementlerine tıklama ve search ederek haber arama, haber içeriğini kontrol etme testleri yapılmıştır.
-## 📝 <span style="color:pink;font-family:Courier New">Notlar</span>
+
+## Notlar
 
 - Bu framework sadece UI otomasyon ve Jmeter performans testlerini barindirir
 - Ayrica manuel olarak test edilen senaryolar icin Manuel Test Dokumu exceli hazirlanmisitir
