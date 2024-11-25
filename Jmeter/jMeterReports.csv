@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732552931368,728,https://2nhaber.com/,200,OK,TC02-Thread Group 2-1,text,true,,458804,492,1,2,https://2nhaber.com/,459,0,371
+1732552931368,725,Anasayfa,200,OK,TC01-Thread Group 1-1,text,true,,458790,492,1,2,https://2nhaber.com/,459,0,371
+1732552934120,322,Neden,200,OK,TC01-Thread Group 1-1,text,true,,259066,498,1,2,https://2nhaber.com/neden/,87,0,0
+1732552934120,985,https://2nhaber.com/?s=İstanbul,200,OK,TC02-Thread Group 2-1,text,true,,185330,508,1,2,https://2nhaber.com/?s=%C4%B0stanbul,806,0,0
+1732552936453,268,Astronomi,200,OK,TC01-Thread Group 1-1,text,true,,207956,504,1,2,https://2nhaber.com/astronomi-2/,84,0,0
+1732552937115,272,https://2nhaber.com/hakkimizda/,200,OK,TC02-Thread Group 2-1,text,true,,118245,503,1,2,https://2nhaber.com/hakkimizda/,94,0,0
+1732552937423,2,Debug Sampler,200,OK,TC02-Thread Group 2-1,text,true,,501,0,1,2,null,0,0,0
+1732552929310,1987,Test,200,"Number of samples in transaction : 4, number of failing samples : 0",TC02-Thread Group 2-1,,true,,762880,1503,1,2,null,1359,6127,371
+1732552938727,260,Fizik,200,OK,TC01-Thread Group 1-1,text,true,,205225,500,1,1,https://2nhaber.com/fizik-2/,80,0,0
+1732552940995,261,Kimya,200,OK,TC01-Thread Group 1-1,text,true,,202525,498,1,1,https://2nhaber.com/kimya/,82,0,0
+1732552943263,262,Biyoloji,200,OK,TC01-Thread Group 1-1,text,true,,207446,501,1,1,https://2nhaber.com/biyoloji/,83,0,0
+1732552945535,266,Diğer,200,OK,TC01-Thread Group 1-1,text,true,,199724,498,1,1,https://2nhaber.com/diger/,82,0,0
+1732552947812,320,Savunma,200,OK,TC01-Thread Group 1-1,text,true,,210820,500,1,1,https://2nhaber.com/savunma/,89,0,0
+1732552950141,307,Otomotiv,200,OK,TC01-Thread Group 1-1,text,true,,211357,501,1,1,https://2nhaber.com/otomotiv/,78,0,0
+1732552952475,272,Enerji,200,OK,TC01-Thread Group 1-1,text,true,,204973,499,1,1,https://2nhaber.com/enerji/,90,0,0
+1732552954755,332,Yapay-Zeka,200,OK,TC01-Thread Group 1-1,text,true,,208638,503,1,1,https://2nhaber.com/yapay-zeka/,100,0,0
+1732552957097,305,Elektronik,200,OK,TC01-Thread Group 1-1,text,true,,209851,503,1,1,https://2nhaber.com/elektronik/,79,0,0
+1732552959410,258,Bilgisayar,200,OK,TC01-Thread Group 1-1,text,true,,207382,503,1,1,https://2nhaber.com/bilgisayar/,74,0,0
+1732552961678,281,Güvenlik,200,OK,TC01-Thread Group 1-1,text,true,,208016,501,1,1,https://2nhaber.com/guvenlik/,89,0,0
+1732552963967,280,Uzay Havacılık,200,OK,TC01-Thread Group 1-1,text,true,,207948,507,1,1,https://2nhaber.com/uzay-havacilik/,97,0,0
+1732552966253,270,Türkiye,200,OK,TC01-Thread Group 1-1,text,true,,206716,500,1,1,https://2nhaber.com/turkiye/,90,0,0
+1732552968531,312,Dünya,200,OK,TC01-Thread Group 1-1,text,true,,208797,498,1,1,https://2nhaber.com/dunya/,81,0,0
+1732552970856,313,Sağlık,200,OK,TC01-Thread Group 1-1,text,true,,208528,499,1,1,https://2nhaber.com/saglik/,84,0,0
+1732552973175,320,Eğitim,200,OK,TC01-Thread Group 1-1,text,true,,209557,499,1,1,https://2nhaber.com/egitim/,91,0,0
+1732552975504,271,Cevre,200,OK,TC01-Thread Group 1-1,text,true,,205811,498,1,1,https://2nhaber.com/cevre/,82,0,0
+1732552977783,268,Kültür,200,OK,TC01-Thread Group 1-1,text,true,,206024,499,1,1,https://2nhaber.com/kultur/,86,0,0
+1732552980058,264,Oyun,200,OK,TC01-Thread Group 1-1,text,true,,183927,497,1,1,https://2nhaber.com/oyun/,85,0,0
+1732552982341,300,Spor,200,OK,TC01-Thread Group 1-1,text,true,,207271,497,1,1,https://2nhaber.com/spor/,111,0,0
+1732552982650,3,Ayıklama Örnekleyicisi,200,OK,TC01-Thread Group 1-1,text,true,,462,0,1,1,null,0,0,0
+1732552929311,7040,Test,200,"Number of samples in transaction : 24, number of failing samples : 0",TC01-Thread Group 1-1,,true,,5046810,11495,1,1,null,2363,46304,371
